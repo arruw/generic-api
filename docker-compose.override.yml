@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  genericcontroller.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  db:
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password123!
+    ports:
+      - "1433:1433"

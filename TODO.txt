@@ -1,0 +1,29 @@
+* Database project
+* Docker (entrypoint.sh first run migrations)
+* EF Core migrations
+
+* Try with dapper, it is probbably faster
+
+* Model validation attribute
+
+* Put / Update
+
+
+* Reorganize fields
+
+* Move generic controller logic to Core CL then use it as a service
+
+* Write blog post
+* Send email to Week in .NET https://weekindotnet.azurewebsites.net/
+
+============================================================
+
+* GraphQL sortOrder, filtering
+* Generic GraphQL multi level fields
+
+* Authentication
+
+* Preformance testing
+* Multiple requests in transaction (context pooling)
+* ODATA
+* SignalR

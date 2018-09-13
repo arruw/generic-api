@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  genericcontroller.api:
+    image: genericcontroller.api
+    build:
+      context: ./GenericController.API
+      dockerfile: Dockerfile
+    links:
+      - db
+
+  db:
+    image: microsoft/mssql-server-linux
